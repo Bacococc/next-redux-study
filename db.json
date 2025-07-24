@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "안녕",
+      "userId": 1,
+      "content": "처음 작성하는 글입니다"
+    },
+    {
+      "id": "2",
+      "title": "안녕",
+      "userId": 2,
+      "content": "처음 작성하는 글입니다"
+    },
+    {
+      "id": "3",
+      "title": "안녕",
+      "userId": 3,
+      "content": "처음 작성하는 글입니다"
+    },
+    {
+      "id": "4",
+      "title": "안녕",
+      "userId": 1,
+      "content": "두 번째 작성하는 글입니다"
+    },
+    {
+      "id": "a10c",
+      "title": "안녕하세요",
+      "content": "안녕하세요 반가워용",
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "홍길동",
+      "email": "hhello@g.com"
+    },
+    {
+      "id": "2",
+      "name": "김길동",
+      "email": "khello@g.com"
+    },
+    {
+      "id": "3",
+      "name": "최길동",
+      "email": "chello@g.com"
+    }
+  ]
+}
