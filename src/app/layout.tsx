@@ -1,14 +1,14 @@
-import { ReactNode } from 'react';
+import Providers from "./Provider";
+import "./globals.css";
 
-export const metadata = {
-  title: 'My App',
-  description: 'Next.js 연습 중',
-};
-
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko">
-      <body>{children}</body>
+      <body>
+        <Providers>
+          {children}
+        </Providers>
+      </body>
     </html>
   );
 }
